@@ -1,11 +1,11 @@
-package lambdasinaction.chatper2;
+package lambdasinaction.chapter2;
 
-public class MeaningOfThie {
+public class MeaningOfThe {
     public final int value = 4;
 
     public void doIt() {
         int value = 6;
-        var runnable = new Runnable() {
+        Runnable runnable = new Runnable() {
             public final int value = 5;
 
             @Override
@@ -18,7 +18,7 @@ public class MeaningOfThie {
     }
 
     public static void main(String[] args) {
-        MeaningOfThie instance = new MeaningOfThie();
+        MeaningOfThe instance = new MeaningOfThe();
         instance.doIt();
     }
 }

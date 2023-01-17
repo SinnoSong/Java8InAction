@@ -1,4 +1,4 @@
-package lambdasinaction.chatper3;
+package lambdasinaction.chapter3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
